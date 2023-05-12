@@ -1,0 +1,147 @@
+/* section */
+
+
+/* !!!!!!!!!!!!!   Title section starts    !!!!!!!!!!!! */
+
+#title {
+    background: url("https://images.unsplash.com/photo-1569420077790-afb136b3bb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80")no-repeat;
+    color: white;
+    background-size: 100%;
+    text-align: left;
+}
+
+.main-head {
+    font-size: 4.0rem;
+    color: black;
+    margin-top: 52px;
+}
+
+.container-fluid {
+    padding: 0% 15% 0% 15%;
+}
+
+/* Navigation-bar */
+#cfc {
+
+    color: black;
+    font-size: 3rem;
+    font-style: oblique;
+
+}
+
+.navbar {
+    padding: 0 0 0.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 25px;
+    color: #191919;
+}
+
+.nav_line {
+    color: #191919;
+}
+
+.nav-link {
+    font-size: larger;
+    font-family: 'Itim', cursive;
+
+}
+
+
+/* Download-button */
+
+
+
+.btn-lg {
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+
+}
+
+/* Iphone-Image */
+
+.phone-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* !!!!!!!!!!!!!!!! Title section ends !!!!!!!!!!!!!!!!! */
+
+.py-5 h2 {
+    font-size: 3rem;
+    color: linear-gradient(to right, #00093c, #2d0b00);
+    padding: 0px 14% 5% 14%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.idli1 {
+    width: 40%;
+    height: 500px;
+    background-color: whitesmoke;
+    border-width: 5px;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idli2 {
+    width: 60%;
+    height: 500px;
+    background-color: whitesmoke;
+    border-width: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.idli_img {
+    padding: 10px;
+
+}
+
+#idli_main {
+    display: flex;
+
+
+}
+
+
+#head1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.my_forms {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+
+}
+
+#buynow {
+    margin: 30px 178px 2px 183px;
+}
+
+.labeling {
+    font-size: 25px;
+    margin: 15px 2px 11px 0px;
+}
+
+
+#check {
+    margin: auto;
+}

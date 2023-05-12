@@ -1,0 +1,625 @@
+body {
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Itim', cursive;
+}
+
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+
+/* Section */
+.coloured-section {
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: #ff81479c;
+}
+
+
+/* section */
+
+
+/* !!!!!!!!!!!!!   Title section starts    !!!!!!!!!!!! */
+
+#title {
+    background: url("https://images.unsplash.com/photo-1569420077790-afb136b3bb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80")no-repeat;
+    color: white;
+    background-size: 100%;
+    text-align: left;
+}
+
+.main-head {
+    font-size: 4.0rem;
+    color: black;
+    margin-top: 52px;
+}
+
+.container-fluid {
+    padding: 0% 15% 27% 15%;
+}
+
+/* Navigation-bar */
+#cfc {
+
+    color: black;
+    font-size: 3rem;
+    font-style: oblique;
+
+}
+
+.navbar {
+    padding: 0 0 0.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 25px;
+    color: #191919;
+}
+
+.nav_line {
+    color: #191919;
+}
+
+.nav_line:hover {
+    color: #2e74bf;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.nav-link {
+    font-size: larger;
+    font-family: 'Itim', cursive;
+
+}
+
+
+/* Download-button */
+
+
+
+.btn-lg {
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!! Title section ends !!!!!!!!!!!!!!!!! */
+
+
+/* !!!!!!!!!!!!!!!! features section Starts !!!!!!!!!!!!*/
+
+#features {
+    padding: 35px 2px;
+    position: relative;
+    /*  z-index: 1;  */
+    /*here if we do not give the z-index = -1 then also we get the desired result according to z-index table..*/
+    background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1842.jpg?w=740&t=st=1679371541~exp=1679372141~hmac=2de5aa7a65675705057157be69699845116398e650705562f2a900be037d2f41");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+
+}
+
+.feature-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-para {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* !!!!!!!!!  Features section Start !!!!!!!!!!! */
+
+
+
+/* !!!!!!!!!!  Testimonials section starts !!!!!!!!!!!*/
+
+
+#testimonials {
+    background-image: url("https://media.istockphoto.com/id/1188030698/photo/the-gray-and-silver-are-light-black-with-white-the-gradient-is-the-surface-with-templates.jpg?b=1&s=612x612&w=0&k=20&c=PNpWMldZFn6KgGjAau2oTBXlqHxIbARD3hMJqFhWJCg=");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.testimonial-head {
+    font-size: 2.5rem;
+}
+
+.testimonial-image {
+    width: 31%;
+    border-radius: 17%;
+    margin: 43px;
+    height: 290px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+}
+
+.carousel-item {
+    padding: 7% 13%;
+}
+
+/*!!!!!!!!  Testimonial Section Ends !!!!!!!!!*/
+
+
+/* !!!!!!! Press-section !!!!!!!*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 15px 30px 15px;
+}
+
+/*!!!!!!!! press section ends !!!!!!!!!*/
+
+
+/*!!!!!!!! Pricing Section starts !!!!!!!!*/
+
+#pricing {
+    padding: 5% 8% 5% 8%;
+    background-color: #C8C9CB;
+    /* background-color: #ff81479c; */
+    background-size: 146%;
+}
+
+.pricing-container {
+    margin-top: 30px;
+}
+
+.card-body-1 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://m.media-amazon.com/images/I/61wHDafBV4S._AC_SX679_.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-1:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.card-body-2 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://assetscdn1.paytm.com/images/catalog/product/H/HO/HOMDYNAMIC-STORSONA30055D148B7D4/1563105060570_0.jpg?imwidth=320&impolicy=hq");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-2:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.card-body-3 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://image.made-in-china.com/43f34j00fMPVnCJgEoph/Disposable-Takeaway-Plastic-PP-Black-Rectangle-Round-Compartments-Lunch-Box-Bowl-Microwave-Food-Container.webp");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-3:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.card-body-4 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://i.ebayimg.com/images/g/3hIAAOSwUwhhmB~a/s-l1600.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-4:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.card-body-5 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://i0.wp.com/www.onmartindia.com/wp-content/uploads/2022/09/Air-1.webp?resize=768%2C995&ssl=1");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-5:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.card-body-6 {
+    color: black;
+    height: 400px;
+    padding: 2.5rem;
+    background-image: url("https://5.imimg.com/data5/FC/GC/MY-4038795/plastic-container-1000x1000.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+
+.card-body-6:hover {
+    background-position: left bottom;
+    transform: scale(1.1);
+}
+
+.pricing-main-head {
+    font-size: 3.8rem;
+    padding: 1.0rem;
+}
+
+
+.pricing-para {
+    color: white;
+    background-color: #191919;
+    border-radius: 0.7rem;
+    font-size: 25px;
+    border-style: none;
+    padding: 0.5rem;
+
+
+
+}
+
+.pricing-head-2 {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+}
+
+.pricing-head-3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    opacity: 0.7;
+}
+
+
+
+/* !!!!!!!!Pricing Section ends !!!!!!! */
+
+
+
+
+/* @mediaQuery */
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+
+    .phone-img {
+        position: static;
+        transform: rotate(0deg);
+        height: 90%;
+        width: 44%;
+        padding-top: 70px;
+    }
+
+}
+
+
+/* !!!!!!!! Call to Action starts !!!!!!!!! */
+
+#cta {
+    background-color: #191919;
+    padding: 4% 4% 9% 3%;
+
+}
+
+.aboutus {
+    display: flexbox;
+}
+
+#img_about {
+
+    background: url("mimi-thian-vdXMSiX-n6M-unsplash.jpg");
+    background-size: 50%;
+
+}
+
+.cta-head {
+    font-size: 3rem;
+    color: white;
+    padding: 0px 14% 5% 14%;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.ctn-lg {
+    font-size: 22px;
+    margin: 6px;
+}
+
+#about_para {
+    font-size: 19px;
+    text-align: center;
+    color: cornsilk;
+    width: 41%;
+}
+
+
+
+/* !!!!!!!  Call To Action section ends  !!!!!!!! */
+
+
+
+/* !!!!!!! Footer stars !!!!!!! */
+
+#footer {
+    height: 190px;
+    color: white;
+}
+
+.foot-icon {
+    color: black;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.foot-para {
+    padding: 15px 5px 40px 5px;
+}
+
+.footer-icon-container {
+    padding-top: 85px;
+}
+
+
+/* CONTACT SECTION */
+
+#contact {
+    background: url('business-g445ee2078_1920.jpg');
+}
+
+#contactid {
+    padding: 20px 2px;
+    font-size: 50px;
+    color: white;
+}
+
+#contact-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#contact-box form {
+    width: 40%;
+
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: o;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: wheat;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid wheat;
+    margin-bottom: 50px;
+}
+
+form .far {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    width: 100%;
+    background: transparent;
+    color: wheat;
+    border: 0;
+    outline: none;
+}
+
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button {
+    font-size: 16px;
+    color: wheat;
+}
+
+.social-icons .bi {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: wheat;
+    background: #000;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-icons .bi:hover {
+    transform: scale(1.1);
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background-color: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background-color: wheat;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: -20px
+    }
+
+    100% {
+        left: 100%;
+    }
+}

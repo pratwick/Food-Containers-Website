@@ -1,0 +1,117 @@
+/* section */
+body{
+    font-family: 'Itim', cursive;
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-family:"Montserrat", sans-serif;
+    line-height: 1.5;  
+}
+
+/* !!!!!!!!!!!!!   Title section starts    !!!!!!!!!!!! */
+
+#title{
+    background:url("https://images.unsplash.com/photo-1569420077790-afb136b3bb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80")no-repeat;
+    color: white;
+    background-size: 100%;
+    text-align: left;
+}
+ .main-head{
+    font-size: 4.0rem;
+    color: black;
+    margin-top: 52px;
+ }
+
+.container-fluid {
+    padding: 0% 15% 0% 15%;
+}
+
+/* Navigation-bar */
+#cfc{
+   
+        color: black;
+        font-size: 3rem;
+        font-style: oblique;
+    
+}
+
+.navbar{
+   padding: 0 0 0.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 25px;
+    color: #191919;
+}
+.nav_line{
+    color: #191919;
+}
+.nav-link{
+    font-size:larger;
+    font-family: 'Itim', cursive;
+  
+}
+
+
+ /* Download-button */
+
+
+
+.btn-lg{
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+
+  /* CONTACT SECTION */
+
+  #contact{
+    background-image: url("https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1842.jpg?w=740&t=st=1679371541~exp=1679372141~hmac=2de5aa7a65675705057157be69699845116398e650705562f2a900be037d2f41");
+    background-size: cover;
+    background-position: center;
+}
+
+#contactid{
+    padding: 20px 2px;
+    font-size: 50px;
+    color:  linear-gradient(to right, #00093c, #2d0b00);
+}
+
+#contact-box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(185, 179, 167);
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#contact-box form{
+    width: 40%;
+
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
